@@ -1,0 +1,17 @@
+.text-box {
+  padding: 8px 16px;
+  font-size: 0.82rem;
+  border-radius: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  outline: none;
+  color: rgba(0, 0, 20, 0.7);
+  transition: 160ms linear;
+}
+
+.text-box:focus {
+  border-color: rgb(117, 171, 226);
+}
+
+.text-box::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}

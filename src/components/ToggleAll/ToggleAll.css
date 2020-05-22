@@ -1,0 +1,16 @@
+.toggleAll {
+  margin: 1rem 0;
+  border: none;
+  background-color: rgb(30, 144, 252);
+  color: white;
+  padding: 8px 14px;
+  border-radius: 1px;
+  box-shadow: 2px 3px 12px rgba(33, 150, 243, 0.6);
+  cursor: pointer;
+  transition: 160ms linear;
+  outline: none;
+}
+
+.toggleAll:active {
+  transform: scale(0.9);
+}

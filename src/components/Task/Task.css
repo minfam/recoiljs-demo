@@ -1,0 +1,49 @@
+.task {
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.13);
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  align-items: center;
+  transition: 160ms linear;
+  margin: 0.8rem 0;
+}
+
+.task:hover {
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.18);
+}
+
+.task.done {
+  background-color: #f9fbfc;
+}
+
+.task.done .task-content {
+  color: mediumseagreen;
+  text-shadow: 0.2px 0.2px 0.8px rgba(57, 184, 114, 0.4);
+}
+
+.task-content {
+  margin: 1rem;
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: 400;
+  flex-grow: 1;
+  text-align: left;
+  transition: 100ms;
+}
+
+.task-delete-btn {
+  display: inline-block;
+  margin-left: auto;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  background-color: rgba(296, 85, 86, 0.7);
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+  transition: 140ms linear;
+}
+
+.task-delete-btn:hover {
+  background-color: rgba(296, 85, 86, 1);
+}

@@ -1,0 +1,37 @@
+.filter {
+  margin-top: 1rem;
+  background-color: rgba(231, 229, 229, 0.4);
+  border-radius: 2px;
+  display: inline-block;
+  padding: 0 1rem 8px 1rem;
+}
+
+.filter-title {
+  margin: 0.8rem 0 0.6rem 0;
+  color: dodgerblue;
+  font-weight: 400;
+}
+
+.filter-btn {
+  margin: 0 0.8rem;
+  border-radius: 2px;
+  padding: 8px 14px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  outline: none;
+  transition: 120ms linear;
+}
+
+.filter-btn:hover {
+  background-color: rgba(100, 100, 100, 0.0012);
+}
+
+.filter-btn.active {
+  background-color: mediumseagreen;
+  border-color: mediumseagreen;
+  color: white;
+}
+
+.filter-btn.active:hover {
+  background-color: mediumseagreen;
+}
